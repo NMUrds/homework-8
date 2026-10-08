@@ -1,0 +1,7 @@
+name = input("What is your name? ")
+greeting = "Hello, " + name + "!"
+print(greeting)
+print("Length of name:", len(name))
+print("Name in Upper:", name.upper())
+print("Name in Lower:", name.lower())
+print("Type:", type(name))
